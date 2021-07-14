@@ -18,7 +18,7 @@ Don't worry, this extension is very safe to be used, it will not and cannot remo
 
 Please be aware that after closing Visual Studio, a log file will be generated in 'C:\Users\\[USERNAME]\AppData\Local\Temp\VsAutomaticTempFileCleaner.log' containing the records for the temp files that had been removed.
 
-This extension care to delete temp files related to Background Download, Diagnostic Tools, NuGet, VS settings log files, VS telemetry and VSIX package extraction between other kind of VS temp files.
+This extension care to delete temp files related to Background Download, Diagnostic Tools, NuGet, VS settings log files, VS telemetry and VSIX package extraction between other kind of VS temp files, including those disgusting files and directories in your system's temp folder having random alphanumeric naming pattern like: ########.###
 
 I hope this finally helps people to say goodbye to the thousands of Visual Studio files that remain in the temporary folder pending for clean.
 
