@@ -26,8 +26,8 @@ I hope this finally helps people to say goodbye to the thousands of Visual Studi
 
 ## 🤖 Getting Started
 
-Download the latest extension release by clicking [here](https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/releases/latest),
-install it, and whenever you close Visual Studio it will delete all the garbage silently on background.
+Download the latest extension release by clicking [here](https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/releases/latest) or [from Visual Studio Market Place](https://marketplace.visualstudio.com/items?itemName=elektroHacker.AutoTempFileCleanerVS2022),
+install it, and whenever you close Visual Studio it will silently on background delete all the garbage.
 
 You can check the log file `C:\Users\[USERNAME]\AppData\Local\Temp\AutoTempFileCleaner_VS2022.log` for more details on the last clean operation did by the extension.
 
