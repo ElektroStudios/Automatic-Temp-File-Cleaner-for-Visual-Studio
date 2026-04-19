@@ -4,6 +4,7 @@
 
 #### 🌟 Improvements:
  - Added support for cleaning additional types of temporary files.
+ - Temporary file cleanup now runs only after the last Visual Studio instance is closed.
 
 #### 🛠️ Fixes:
  - Prevented deletion of temporary .vsix package files. This resolves an issue affecting installation of Visual Studio extensions (VSIX) from the IDE. Thanks to Caslav Pavlovic for reporting the problem.
