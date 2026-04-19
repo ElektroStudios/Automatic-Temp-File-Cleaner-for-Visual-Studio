@@ -8,8 +8,8 @@
 #### 🛠️ Fixes:
  - Prevented deletion of temporary .vsix package files. This resolves an issue affecting installation of Visual Studio extensions (VSIX) from the IDE. Thanks to Caslav Pavlovic for reporting the problem.
 
-> **IMPORTANT**
-> The package for VS2019 remains unchanged.
+> [!IMPORTANT]
+> The VSIX package for Visual Studio 2019 remains unchanged. It is no longer supported.
 
 ## v1.1 🔄
 
