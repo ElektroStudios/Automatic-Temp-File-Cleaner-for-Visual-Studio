@@ -1,6 +1,6 @@
 ﻿' ***********************************************************************
 ' Author   : ElektroStudios
-' Modified : 14-July-2021
+' Modified : 19-April-2026
 ' ***********************************************************************
 
 #Region " Option Statements "
@@ -23,7 +23,6 @@ Imports System.Runtime.InteropServices
 
 ' ReSharper disable once CheckNamespace
 
-''' ----------------------------------------------------------------------------------------------------
 ''' <summary>
 ''' Platform Invocation methods (P/Invoke), access unmanaged code.
 ''' <para></para>
@@ -32,55 +31,50 @@ Imports System.Runtime.InteropServices
 ''' <para></para>
 ''' This class is for methods that can be used anywhere because a stack walk will be performed.
 ''' </summary>
-''' ----------------------------------------------------------------------------------------------------
+''' 
 ''' <remarks>
 ''' <see href="https://msdn.microsoft.com/en-us/library/ms182161.aspx"/>
 ''' </remarks>
-''' ----------------------------------------------------------------------------------------------------
 Friend NotInheritable Class NativeMethods
 
 #Region " Constructors "
 
-        ''' ----------------------------------------------------------------------------------------------------
-        ''' <summary>
-        ''' Prevents a default instance of the <see cref="NativeMethods"/> class from being created.
-        ''' </summary>
-        ''' ----------------------------------------------------------------------------------------------------
-        <DebuggerNonUserCode>
-        Private Sub New()
-        End Sub
+    ''' <summary>
+    ''' Prevents a default instance of the <see cref="NativeMethods"/> class from being created.
+    ''' </summary>
+    <DebuggerNonUserCode>
+    Private Sub New()
+    End Sub
 
 #End Region
 
 #Region " Shlwapi.dll "
 
-        ''' ----------------------------------------------------------------------------------------------------
-        ''' <summary>
-        ''' Determines whether a specified path is an empty directory.
-        ''' </summary>
-        ''' ----------------------------------------------------------------------------------------------------
-        ''' <remarks>
-        ''' <see href="https://docs.microsoft.com/en-us/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectoryemptya"/>
-        ''' </remarks>
-        ''' ----------------------------------------------------------------------------------------------------
-        ''' <param name="path">
-        ''' A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be tested.
-        ''' </param>
-        ''' ----------------------------------------------------------------------------------------------------
-        ''' <returns>
-        ''' Returns <see langword="True"/> if <paramref name="path"/> is an empty directory.
-        ''' <para></para>
-        ''' Returns <see langword="False"/> if <paramref name="path"/> is not a directory,
-        ''' or if it contains at least one file other than "." or "..".
-        ''' </returns>
-        ''' ----------------------------------------------------------------------------------------------------
-        <DllImport("ShlwApi.dll", SetLastError:=True, CharSet:=CharSet.Auto, BestFitMapping:=False, ThrowOnUnmappableChar:=True)>
-        Public Shared Function PathIsDirectoryEmpty(path As String
+    ''' <summary>
+    ''' Determines whether a specified path is an empty directory.
+    ''' </summary>
+    ''' 
+    ''' <remarks>
+    ''' <see href="https://docs.microsoft.com/en-us/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectoryemptya"/>
+    ''' </remarks>
+    ''' 
+    ''' <param name="path">
+    ''' A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be tested.
+    ''' </param>
+    ''' 
+    ''' <returns>
+    ''' Returns <see langword="True"/> if <paramref name="path"/> is an empty directory.
+    ''' <para></para>
+    ''' Returns <see langword="False"/> if <paramref name="path"/> is not a directory,
+    ''' or if it contains at least one file other than "." or "..".
+    ''' </returns>
+    <DllImport("ShlwApi.dll", SetLastError:=True, CharSet:=CharSet.Auto, BestFitMapping:=False, ThrowOnUnmappableChar:=True)>
+    Public Shared Function PathIsDirectoryEmpty(path As String
         ) As <MarshalAs(UnmanagedType.Bool)> Boolean
-        End Function
+    End Function
 
 #End Region
 
-    End Class
+End Class
 
 #End Region

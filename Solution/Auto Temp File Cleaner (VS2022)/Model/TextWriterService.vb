@@ -1,6 +1,6 @@
 ﻿' ***********************************************************************
 ' Author   : ElektroStudios
-' Modified : 14-July-2021
+' Modified : 19-April-2026
 ' ***********************************************************************
 
 #Region " Option Statements "
@@ -28,15 +28,13 @@ Imports Task = System.Threading.Tasks.Task
 
 #Region " TextWriterService "
 
-''' ----------------------------------------------------------------------------------------------------
 ''' <summary>
 ''' A class that implements both the service and the service interface.
 ''' </summary>
-''' ----------------------------------------------------------------------------------------------------
+''' 
 ''' <remarks>
 ''' <see href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.asyncservicecreatorcallback?view=visualstudiosdk-2019"/>
 ''' </remarks>
-''' ----------------------------------------------------------------------------------------------------
 Public Class TextWriterService : Implements STextWriterService, ITextWriterService
 
     Private ReadOnly asyncServiceProvider As IAsyncServiceProvider
@@ -71,23 +69,19 @@ Public Class TextWriterService : Implements STextWriterService, ITextWriterServi
 
 End Class
 
-''' ----------------------------------------------------------------------------------------------------
 ''' <summary>
 ''' An empty interface that identifies the service. 
 ''' <para></para>
 ''' This have no methods defined as it is only used for querying the service.
 ''' </summary>
-''' ----------------------------------------------------------------------------------------------------
 Public Interface STextWriterService
 End Interface
 
-''' ----------------------------------------------------------------------------------------------------
 ''' <summary>
 ''' An interface that describes the service interface. 
 ''' <para></para>
 ''' This interface defines the methods to be implemented.
 ''' </summary>
-''' ----------------------------------------------------------------------------------------------------
 Public Interface ITextWriterService
     Function WriteLineAsync(path As String, line As String) As Task
 End Interface
