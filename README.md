@@ -26,6 +26,10 @@ visualstudio-extension
 
 </div>
 
+> [!WARNING]
+> **This repository is archived and is no longer actively maintained.**
+> The content remains available for educational purposes and reference, but no further updates or support will be provided.
+
 ------------------
 
 <p align="center">
@@ -49,7 +53,7 @@ visualstudio-extension
     <a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/commits"><img src="https://img.shields.io/github/last-commit/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio" alt="Last commit"></a>
     <a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/pulls"><img src="https://img.shields.io/github/issues-pr/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio" alt="Pull Requests"></a>
     <a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio?color=blue" alt="Open Issues"></a><a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio?label=&color=28a745" alt="Closed Issues"></a>
-    <a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/pulse"><img src="https://img.shields.io/badge/maintained-yes-green.svg" alt="Maintenance"></a>
+    <a href="https://github.com/ElektroStudios/Automatic-Temp-File-Cleaner-for-Visual-Studio/pulse"><img src="https://img.shields.io/badge/maintained-no-red.svg" alt="Maintenance"></a>
   <br>
   <br>
     <a href="https://en.wikipedia.org/wiki/Spanish_Empire"><img src="https://img.shields.io/badge/Made_in-Spain_%F0%9F%87%AA%F0%9F%87%B8-AA151B?style=flat" alt="Made in Spain"></a>
