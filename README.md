@@ -27,8 +27,9 @@ visualstudio-extension
 </div>
 
 > [!WARNING]
-> **This repository is archived and is no longer actively maintained.**
-> The content remains available for educational purposes and reference, but no further updates or support will be provided.
+> **This repository is archived in a read-only state and is no longer maintained.**
+> 
+> This project is no longer updated or supported, but remains available for reference and educational use.
 
 ------------------
 
